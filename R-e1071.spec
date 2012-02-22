@@ -9,12 +9,13 @@ Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-class 
-Requires:         R-graphics R-stats R-grDevices R-utils 
-Requires:         R-cluster R-mlbench R-nnet R-randomForest R-rpart R-SparseM R-xtable R-Matrix R-MASS 
+Requires:         R-class R-graphics R-stats R-grDevices R-utils
+Requires:         R-cluster R-mlbench R-nnet R-randomForest R-rpart
+Requires:         R-SparseM R-xtable R-Matrix R-MASS
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-class
-BuildRequires:    R-graphics R-stats R-grDevices R-utils 
-BuildRequires:    R-cluster R-mlbench R-nnet R-randomForest R-rpart R-SparseM R-xtable R-Matrix R-MASS 
+BuildRequires:    R-graphics R-stats R-grDevices R-utils
+BuildRequires:    R-cluster R-mlbench R-nnet R-randomForest R-rpart
+BuildRequires:    R-SparseM R-xtable R-Matrix R-MASS
 
 %description
 Functions for latent class analysis, short time Fourier transform, fuzzy
