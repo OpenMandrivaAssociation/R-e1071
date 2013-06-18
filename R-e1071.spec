@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.6.1
-Release:          1
+Release:          2
 Summary:          Misc Functions of the Department of Statistics (e1071), TU Wien
 Group:            Sciences/Mathematics
 License:          GPL-2
