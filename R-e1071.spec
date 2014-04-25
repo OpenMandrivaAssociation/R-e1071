@@ -2,13 +2,14 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.6.1
-Release:          2
+Version:          1.6.3
+Release:          1
 Summary:          Misc Functions of the Department of Statistics (e1071), TU Wien
+
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/e1071_1.6-1.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/e1071_1.6-3.tar.gz
 Requires:         R-class 
 Requires:         R-graphics R-stats R-grDevices R-utils 
 Requires:         R-cluster R-mlbench R-nnet R-randomForest R-rpart R-SparseM R-xtable R-Matrix R-MASS 
@@ -47,3 +48,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+

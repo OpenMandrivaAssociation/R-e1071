@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   e1071_1.6-1.tar.gz: d95d38445003a8120fc96e73667c9bdd90b77392
+sources:
+  e1071_1.6-3.tar.gz: d84f207783eed2f36b1172298b4373ce01a2676e
