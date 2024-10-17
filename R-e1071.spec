@@ -8,7 +8,7 @@ Summary:          Misc Functions of the Department of Statistics (e1071), TU Wie
 
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/e1071_1.6-3.tar.gz
 Requires:         R-class 
 Requires:         R-graphics R-stats R-grDevices R-utils 
